@@ -2,9 +2,12 @@
 <html class="no-js" lang="">
 
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <meta charset="utf-8">
-  <title></title>
+  <title> Ban Thai</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,9 +22,10 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="img/bantai/logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -46,34 +50,87 @@
     </ul>
   </div>
 </nav>
-<section  id="main">
+<section id="main">
   <video autoplay loop muted id="myVideo">
-      <source src="img/bantai/banthai_video.mp4" type="video/mp4">
+    <source src="img/bantai/banthai_video.mp4" type="video/mp4">
   </video>
+  <div class="main_text">
+    <img src="img/bantai/logo.png" alt="wroclaw " class="main_text_logo">
+    <p class="main_text_description">PRAWDZIWY SMAK TAJSKIEJ KUCHNI</p>
+  </div>
 </section>
-<section  id="about"></section>
-<section  id="menu"></section>
+<section id="about"></section>
+
+
+<section id="menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 menu-pill-title">
+        <h2>Menu</h2>
+        <ul class="nav nav-pills menu-pill-chose ">
+          <li class="active"><a data-toggle="pill" href="#menu1">PRZYSTAWKI</a></li>
+          <li><a data-toggle="pill" href="#menu2">ZUPY</a></li>
+          <li><a data-toggle="pill" href="#menu3">SAŁATKI</a></li>
+          <li><a data-toggle="pill" href="#menu4">WEGE</a></li>
+          <li><a data-toggle="pill" href="#menu5">KURCZAK/KACZKA</a></li>
+          <li><a data-toggle="pill" href="#menu6">WIEPRZOWINA/WOŁOWINA</a></li>
+          <li><a data-toggle="pill" href="#menu7">KREWETKI/KALMARY</a></li>
+          <li><a data-toggle="pill" href="#menu8">CURRY</a></li>
+          <li><a data-toggle="pill" href="#menu9">GRILL/DESERY</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="menu1" class="tab-pane fade">
+            <img src="img/bantai/przystawki.jpg" alt="">
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <img src="img/bantai/zupy.jpg" alt="">
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <img src="img/bantai/salatki.jpg" alt="">
+          </div>
+          <div id="menu4" class="tab-pane fade">
+            <img src="img/bantai/wege.jpg" alt="">
+          </div>
+          <div id="menu5" class="tab-pane fade">
+            <img src="img/bantai/kurczak_kacka.jpg" alt="">
+          </div>
+          <div id="menu6" class="tab-pane fade">
+            <img src="img/bantai/weiprzowina_wolowina.jpg" alt="">
+          </div>
+          <div id="menu7" class="tab-pane fade">
+            <img src="img/bantai/krewetki_kalmary.jpg" alt="">
+          </div>
+          <div id="menu8" class="tab-pane fade">
+            <img src="img/bantai/curry.jpg" alt="">
+          </div>
+          <div id="menu9" class="tab-pane fade">
+            <img src="img/bantai/desert.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section id="certificats"></section>
-<section  id="order"></section>
-<section  id="contacts"></section>
+<section id="order"></section>
+<section id="contacts"></section>
 
 
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
 
-
-
-
-
-
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
